@@ -1,0 +1,25 @@
+{
+    "token": "e9c2dd6f-9d42-412b-a208-c85cbf87454f",
+    "user": {
+        "first_name": "Admin",
+        "last_name": "Agri",
+        "email": "admin@agri.com",
+        "password": "Password123!",
+        "site_name": "Agri Dashboard"
+    },
+    "prefs": {
+        "allow_tracking": false,
+        "site_name": "Agri Dashboard"
+    },
+    "database": {
+        "engine": "postgres",
+        "name": "Agri DWH",
+        "details": {
+            "host": "host.docker.internal",
+            "port": 5432,
+            "dbname": "agri_dwh",
+            "user": "agri",
+            "password": "agri"
+        }
+    }
+}
